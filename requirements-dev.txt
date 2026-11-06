@@ -1,0 +1,2 @@
+# Unit tests do not load audio devices, model weights, or cloud APIs.
+numpy==2.3.5

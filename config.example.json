@@ -1,0 +1,37 @@
+{
+  "language": "auto",
+  "refresh_seconds": 3,
+  "max_segment_seconds": 20,
+  "vad": true,
+  "local_review": {
+    "enabled": true
+  },
+  "diagnostics": {
+    "save_uncertain_audio": true,
+    "max_audio_seconds": 120
+  },
+  "speakers": {
+    "enabled": true,
+    "refresh_seconds": 3,
+    "window_seconds": 15,
+    "match_threshold": 0.4
+  },
+  "cloud": {
+    "enabled": false,
+    "provider": "xai",
+    "proxy_url": null,
+    "endpoint": "https://api.x.ai/v1",
+    "model": "grok-voice-transcribe-2.0",
+    "key_env": "XAI_API_KEY",
+    "force_lang": "",
+    "format": true,
+    "diarization": true,
+    "filler_words": false,
+    "keyterms": [],
+    "timeout_seconds": 180,
+    "max_429_retries": 2,
+    "mode": "uncertain",
+    "max_audio_seconds_per_session": 60,
+    "max_requests_per_session": 12
+  }
+}

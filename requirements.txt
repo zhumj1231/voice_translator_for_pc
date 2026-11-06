@@ -1,0 +1,5 @@
+# Windows x64 / Python 3.12. Model weights and executable runtimes are separate.
+numpy==2.3.5
+PyAudioWPatch==0.2.12.8
+sherpa-onnx==1.13.7
+sherpa-onnx-core==1.13.7
